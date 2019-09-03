@@ -10,7 +10,7 @@
   
   Sentiment analysis
   
-# Tokenization
+# Tokenization:
   Turning a string or document into tokens (smaller chunks)
   
   One step in preparing a text for NLP
@@ -23,3 +23,10 @@
   
   Breaking out words or sentences\\\Separating punctuation\\\Separating all hashtags in a tweet
 
+# Useful library:
+  nltk: natural language toolkit
+  
+  word_tokenize\\\sent_tokenize\\\regexp_tokenize\\\TweetTokenizer
+  
+  
+  

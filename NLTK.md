@@ -32,6 +32,7 @@ pattern2 = r"[\w\s]+:"
 print(re.match(pattern2, sentences[3]))
 
 #Regex with NLTK tokenization
+
 ###### Import the necessary modules
 from nltk.tokenize import regexp_tokenize
 from nltk.tokenize import TweetTokenizer
@@ -49,6 +50,5 @@ pattern2 = r"([@#]\w+)"
 regexp_tokenize(tweets[-1], pattern2)
 
 ###### Use the TweetTokenizer to tokenize all tweets into one list
-tknzr = TweetTokenizer()
-all_tokens = [tknzr.tokenize(t) for t in tweets]
+tknzr = TweetTokenizer()<br>all_tokens = [tknzr.tokenize(t) for t in tweets]
 print(all_tokens)

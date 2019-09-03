@@ -1,6 +1,5 @@
 ###### Import necessary modules
-from nltk.tokenize import sent_tokenize
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import sent_tokenize<br>from nltk.tokenize import word_tokenize
 
 ###### Split scene_one into sentences: sentences
 sentences = sent_tokenize(scene_one)
@@ -28,10 +27,9 @@ pattern1 = r"\[.*\]"
 print(re.search(pattern1, scene_one))
 
 ###### Find the script notation at the beginning of the fourth sentence and print it
-pattern2 = r"[\w\s]+:"
-print(re.match(pattern2, sentences[3]))
+pattern2 = r"[\w\s]+:"<br>print(re.match(pattern2, sentences[3]))
 
-#Regex with NLTK tokenization
+# Regex with NLTK tokenization
 
 ###### Import the necessary modules
 from nltk.tokenize import regexp_tokenize
@@ -50,5 +48,4 @@ pattern2 = r"([@#]\w+)"
 regexp_tokenize(tweets[-1], pattern2)
 
 ###### Use the TweetTokenizer to tokenize all tweets into one list
-tknzr = TweetTokenizer()<br>all_tokens = [tknzr.tokenize(t) for t in tweets]
-print(all_tokens)
+tknzr = TweetTokenizer()<br>all_tokens = [tknzr.tokenize(t) for t in tweets]<br>print(all_tokens)

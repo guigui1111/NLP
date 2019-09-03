@@ -1,23 +1,13 @@
 # NLP includes:
-  Topic identification
-  
-  Text classification
+  Topic identification<br>Text classification
 
 # NLP applications include:
-  Chatbots
-  
-  Translation
-  
-  Sentiment analysis
+  Chatbots<br>Translation<br>Sentiment analysis
   
 # Tokenization:
-  Turning a string or document into tokens (smaller chunks)
-  
-  One step in preparing a text for NLP
-  
-  Many different theories and rules
-  
-  You can create your own rules using regular expressions
+  Turning a string or document into tokens (smaller chunks)<br>One step in preparing a text for NLP<br>Many different theories and rules
+<br>
+You can create your own rules using regular expressions
   
   Examples:
   
@@ -25,8 +15,8 @@
 
 # Useful library:
   nltk: natural language toolkit
-  
-  word_tokenize\\\sent_tokenize\\\regexp_tokenize\\\TweetTokenizer
+<br>
+word_tokenize\\\sent_tokenize\\\regexp_tokenize\\\TweetTokenizer
   
   
   

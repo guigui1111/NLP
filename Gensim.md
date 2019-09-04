@@ -41,11 +41,11 @@ for word_id, word_count in bow_doc[:5]:
 ######  Create the defaultdict: total_word_count
 total_word_count = defaultdict(int)
 for word_id, word_count in itertools.chain.from_iterable(corpus):
->     total_word_count[word_id] += word_count
+<br> total_word_count[word_id] += word_count
 
 ######  Create a sorted list from the defaultdict: sorted_word_count 
 sorted_word_count = sorted(total_word_count.items(), key=lambda w: w[1], reverse=True) 
 
 ######  Print the top 5 words across all documents alongside the count
 for word_id, word_count in sorted_word_count[:5]:
->     print(dictionary.get(word_id), word_count)
+<br>  print(dictionary.get(word_id), word_count)

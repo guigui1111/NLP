@@ -70,3 +70,5 @@ sorted_tfidf_weights = sorted(tfidf_weights, key=lambda w: w[1], reverse=True)
 ###### Print the top 5 weighted words
 for term_id, weight in sorted_tfidf_weights[:5]:
 <br>  print(dictionary.get(term_id), weight)
+
+# LDA (Latent Dirichlet allocation)

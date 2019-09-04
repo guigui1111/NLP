@@ -4,6 +4,8 @@
 # NLP applications include:
   Chatbots<br>Translation<br>Sentiment analysis
   
+# Text preprocessing
+
 # Tokenization:
   Turning a string or document into tokens (smaller chunks)<br>One step in preparing a text for NLP<br>Many different theories and rules
 <br>

@@ -80,7 +80,7 @@ no_stops = [t for t in alpha_only if t not in english_stops]
 ###### Instantiate the WordNetLemmatizer
 wordnet_lemmatizer = WordNetLemmatizer()
 
-###### Lemmatize all tokens into a new list: lemmatized
+###### Lemmatize all tokens into a new list: lemmatized (Stemming and lemmatization)
 lemmatized = [wordnet_lemmatizer.lemmatize(t) for t in no_stops]
 
 ###### Create the bag-of-words: bow

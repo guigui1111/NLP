@@ -19,13 +19,12 @@ You can create your own rules using regular expressions
 
 # Useful library:
 ## nltk: natural language toolkit
-<br>
-word_tokenize\\\sent_tokenize\\\regexp_tokenize\\\TweetTokenizer
+<br> word_tokenize\\\sent_tokenize\\\regexp_tokenize\\\TweetTokenizer
   
 ## Gensim
 Definition: Uses top academic models to perform complex tasks <br>
 Examples: Building document or word vectors (word embedding: is trained from a large corpus and a multi-dimental representation of word or document. We can see relationships among words.)
-      <br> LDA (Latent Dirichlet allocation) visualization. 
+      <br> LDA (Latent Dirichlet allocation) visualization.  Link: http://www.voidcn.com/article/p-apermnqp-dk.html
       <br>Performing topic identification and document comparison
       
 ### Gensim pipeline:

@@ -1,0 +1,18 @@
+# https://cisco.box.com/shared/static/64ens2lm103na3pjgy63f3x8d9ucdgo5.pkl
+# # You should have a file named data_only_alpha.pkl in your working directory
+# # This is a pickle file, you can load it with this command:
+
+import pickle
+with open("data_only_alpha.pkl", "rb") as f:
+    data_only_alpha = pickle.load(f)
+
+# The file is a list of 20000 sentences with no punctuation and no numbers, only ascii alphanumeric characters
+# Your task is to create a model to predict whether the next character in a given input is going to be a consonant or a vowel.
+# You can assume that your input does not contain numbers, it contains only ascii alphanumeric characters and spaces
+# You can consider a space as a vowel
+# The minimum length of the input to your model will be 10 characters
+# You have 20000 sentences taken from wikipedia and cleaned up that you can use to train and test your model
+
+
+
+data_only_alpha
